@@ -25,8 +25,8 @@ class GenericProductsPage extends React.Component {
     />;
     return(
       <div>
-        <h1>Whoa, here's a generic Products Page / Section Title!</h1>
-        <p>And here's a products page paragraph tag with a semicolon at the end signaling that the products are below:</p>
+        <h1>Hello</h1>
+        <p>Product Section:</p>
         {oProducts}
       </div>
     )

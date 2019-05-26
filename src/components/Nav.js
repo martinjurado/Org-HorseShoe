@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "react-bootstrap";
 import "./styles/nav.css"
 
 class Nav extends React.Component {
@@ -6,11 +7,10 @@ class Nav extends React.Component {
     return (
       <div className="nav">
         <ul>
-          
           <li className="contact">
-            <button onClick={this.props.handleCartOpen}>
-              Shopify Cart (I work! CLICK ME!)
-            </button>
+            <Button variant="primary" onClick={this.props.handleCartOpen}>
+              Cart
+            </Button>
           </li>
         </ul>
       </div>

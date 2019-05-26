@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+
 import './App.css';
 import { connect } from 'react-redux';
 import Cart from './components/shopify/Cart';
@@ -8,6 +8,9 @@ import store from './store';
 // custom components
 import Nav from './components/Nav';
 import GenericProductsPage from './components/ProductPage';
+
+// website dumb components 
+import Header from "./components/header";
 
 class App extends Component {
   constructor() {
@@ -42,9 +45,8 @@ class App extends Component {
     const state = store.getState(); // state from redux store
     return (
       <div className="App">
-        <Nav handleCartOpen={this.handleCartOpen}/>
-        
-          
+      <Header />
+        <Nav handleCartOpen={this.handleCartOpen}/>          
         <Cart
           checkout={state.checkout}
           isCartOpen={state.isCartOpen}
