@@ -3,6 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import Client from 'shopify-buy';
+
+const client = Client.buildClient({
+    storefrontAccessToken: 'your-access-token',
+    domain: 'your-shopify-url.myshopify.com'
+});
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
