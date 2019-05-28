@@ -1,3 +1,9 @@
+.shopping-cart {
+  color: white;
+  position: absolute;
+  top: 10%;
+}
+
 .nav ul {
   list-style: none;
   text-align: center;

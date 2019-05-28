@@ -1,4 +1,13 @@
 .header {
   z-index: 2;
-  height: 530px;
+  height: 600px;
+}
+
+.logo {
+  z-index: 1;
+  position: absolute;
+  top: 10%;
+  margin-left: 23%;
+  margin-top: 5%;
+  
 }

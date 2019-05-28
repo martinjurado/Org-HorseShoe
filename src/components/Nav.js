@@ -8,9 +8,7 @@ class Nav extends React.Component {
       <div className="nav">
         <ul>
           <li className="contact">
-            <Button variant="primary" onClick={this.props.handleCartOpen}>
-              Cart
-            </Button>
+          <i className="fas fa-shopping-cart fa-2x shopping-cart" onClick={this.props.handleCartOpen}/>            
           </li>
         </ul>
       </div>
