@@ -11,8 +11,8 @@ import "./components/styles/shopify.css"
 
 // build shopify client
 const client = Client.buildClient({
-    storefrontAccessToken: 'YOUR_SHOPIFY_STOREFRONT_ACCESS_TOKEN',
-    domain: 'YOUR_MYSHOPIFY_STORE_URL'
+    storefrontAccessToken: '63129819dfab09e39e4e063215a6d183',
+    domain: 'test-store-blue.myshopify.com'
 });
 store.dispatch({type: 'CLIENT_CREATED', payload: client});
 
