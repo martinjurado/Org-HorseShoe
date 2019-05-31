@@ -1,5 +1,4 @@
 import React from "react";
-import { Button } from "react-bootstrap";
 import "./styles/nav.css";
 
 class Nav extends React.Component {
@@ -8,16 +7,13 @@ class Nav extends React.Component {
       <div className="nav">
         <ul>
           <li>
-          <i class="fas fa-bars fa-2x menu" />
+            <i class="fas fa-bars fa-2x menu" />
           </li>
           <li className="contact">
-            <button
+            <i
               onClick={this.props.handleCartOpen}
-              className="hvr-grow"
-              rel="noopener noreferrer"
-            >
-              <i className="fas fa-shopping-cart fa-2x shopping-cart" />
-            </button>
+              className="fas fa-shopping-cart fa-2x shopping-cart"
+            />
           </li>
         </ul>
       </div>

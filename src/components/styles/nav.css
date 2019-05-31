@@ -1,21 +1,21 @@
 .nav {
   position: absolute;
-  top: 8%;
+  top: 10%;
 }
 
 .menu {
-  color: #4682B4;
+  color: 	#F0FFFF;
 }
 
 .shopping-cart {
-  color: #4682B4;
+  color: 	#F0FFFF;
 }
 
 @media screen and (min-width: 600px) {
   .nav li {
     width: 120px;
     border-bottom: none;
-    height: 50px;
+    
     line-height: 50px;
     font-size: 1.4em;
   }
@@ -23,6 +23,6 @@
   /* Option 1 - Display Inline */
   .nav li {
     display: inline-block;
-    margin-right: 400px;
+    
   }
 }

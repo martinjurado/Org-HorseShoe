@@ -25,8 +25,9 @@ class GenericProductsPage extends React.Component {
     />;
     return(
       <div>
-        <h1>Hello</h1>
-        <p>Product Section:</p>
+        
+        
+        {/* renders products */}
         {oProducts}
       </div>
     )
