@@ -7,7 +7,7 @@ const Header = () => (
   <div className="header text-center">
     <img src={Head} alt="head" className="w-100 header animated fadeIn" />
     <img src={Logo} alt="head" className="logo animated fadeInUp delay-1s" />
-    <h1 className="main-header">Buy the Latest Collection</h1>
+    <h1 className="main-header">Organic 100% E-Liquid</h1>
   </div>
 );
 
