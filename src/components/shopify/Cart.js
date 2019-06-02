@@ -68,18 +68,7 @@ class Cart extends Component {
               </div>
             )}
           </div>
-          <div className="Cart-info clearfix">
-            <div className="Cart-info__total Cart-info__small">
-              Donation Amount
-            </div>
-            {this.props.checkout && (
-              <div className="Cart-info__pricing">
-                <span className="pricing">
-                  ~$ {(this.props.checkout.totalPrice * 0.35).toFixed(2)}
-                </span>
-              </div>
-            )}
-          </div>
+          
           <button className="Cart__checkout button" onClick={this.openCheckout}>
             Checkout
           </button>
