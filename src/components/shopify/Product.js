@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
 import VariantSelector from './VariantSelector';
 
-// constants
-const ONE_SIZE_FITS_MOST = "One Size Fits Most";
+
 
 class Product extends Component {
   constructor(props) {
@@ -69,7 +68,7 @@ class Product extends Component {
         {this.props.product.images.length ? <img src={variantImage.src} alt={`${this.props.product.title} product shot`}/> : null}
         <h5 className="Product__title">{this.props.product.title}</h5>
         <p>${variant.price}</p>
-        {bShowOneSizeFitsMost ? <h5 className="Product__title">{ONE_SIZE_FITS_MOST}</h5> : variantSelectors}
+        
         <label className="Product__option">
           Quantity: <input className="form-control" min="1" type="number" defaultValue={variantQuantity} onChange={this.handleQuantityChange}></input>
         </label>
