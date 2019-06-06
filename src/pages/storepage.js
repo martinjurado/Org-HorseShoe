@@ -3,7 +3,6 @@ import { connect } from "react-redux";
 import Cart from "../components/shopify/Cart";
 import store from "../store";
 
-
 // Custom Components
 import Nav from "../components/Nav";
 import GenericProductsPage from "../components/ProductPage";
