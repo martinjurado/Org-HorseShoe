@@ -1,8 +1,6 @@
 import React, {Component} from 'react';
 import VariantSelector from './VariantSelector';
 
-
-
 class Product extends Component {
   constructor(props) {
     super(props);
@@ -62,7 +60,7 @@ class Product extends Component {
         />
       );
     });
-    let bShowOneSizeFitsMost = (variantSelectors.length === 1 && aOptionNames[0] === "Title");
+    // let bShowOneSizeFitsMost = (variantSelectors.length === 1 && aOptionNames[0] === "Title");
     return (
       <div className="Product">
         {this.props.product.images.length ? <img src={variantImage.src} alt={`${this.props.product.title} product shot`}/> : null}

@@ -9,6 +9,7 @@ import GenericProductsPage from "../components/ProductPage";
 
 // Website Dumb Components
 import Header from "../components/header";
+import FooterPage from "../components/footer";
 
 class StorePage extends Component {
   constructor() {
@@ -78,7 +79,7 @@ class StorePage extends Component {
           removeLineItemInCart={this.removeLineItemInCart}
         />
         <GenericProductsPage />
-        
+        <FooterPage />
       </div>
     );
   }
